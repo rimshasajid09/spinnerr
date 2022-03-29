@@ -1,0 +1,12 @@
+/* Webfont: EnergiPro-StandardItalic */@font-face {
+    font-family: 'EnergiProStandard';
+    src: url('EnergiPro-StandardItalic.eot'); /* IE9 Compat Modes */
+    src: url('EnergiPro-StandardItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EnergiPro-StandardItalic.woff') format('woff'), /* Modern Browsers */
+         url('EnergiPro-StandardItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EnergiPro-StandardItalic.svg#EnergiPro-StandardItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

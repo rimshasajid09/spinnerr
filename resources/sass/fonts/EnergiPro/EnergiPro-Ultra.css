@@ -1,0 +1,11 @@
+/* Webfont: EnergiPro-Ultra */@font-face {
+    font-family: 'EnergiProUltra';
+    src: url('EnergiPro-Ultra.eot'); /* IE9 Compat Modes */
+    src: url('EnergiPro-Ultra.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EnergiPro-Ultra.woff') format('woff'), /* Modern Browsers */
+         url('EnergiPro-Ultra.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EnergiPro-Ultra.svg#EnergiPro-Ultra') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+}
+

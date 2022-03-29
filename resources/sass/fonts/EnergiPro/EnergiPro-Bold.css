@@ -1,0 +1,12 @@
+/* Webfont: EnergiPro-Bold */@font-face {
+    font-family: 'EnergiPro';
+    src: url('EnergiPro-Bold.eot'); /* IE9 Compat Modes */
+    src: url('EnergiPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('EnergiPro-Bold.woff') format('woff'), /* Modern Browsers */
+         url('EnergiPro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('EnergiPro-Bold.svg#EnergiPro-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

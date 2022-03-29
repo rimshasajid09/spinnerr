@@ -1,0 +1,97 @@
+
+.spin-wheel-wrapper {
+
+	font-family: "EnergiPro", sans-serif;
+	background: url('/images/wheel-bg.jpg');
+	background-size: 100% auto;
+	overflow: hidden;
+	padding: 30px 40px;
+
+	.spin-and-win-wrapper {
+
+		position: relative;
+
+		.spin-and-win {
+			position: relative;
+			font-family: EnergiProUltra, sans-serif;
+			font-size: 4em;
+			font-weight: 400;
+			width: 130vw;
+			background: linear-gradient(#dc0b21, #9f061a);
+			padding: 15px 100px;
+			color: white;
+			line-height: 1;
+			transform: rotateZ(-11deg);
+			transform-origin: left;
+			left: -65px;
+			top: 10px;
+		}
+	}
+
+
+	.content-wrapper {
+		padding: 0 35px;
+
+		.content {
+
+			max-width: 240px;
+
+			.greeting {
+				font-size: 2em;
+				line-height: 1;
+			}
+
+			.info {
+				font-size: 3rem;
+				text-transform: uppercase;
+				line-height: 1;
+			}
+
+			.btn-spin {
+				font-size: 2rem;
+				font-style: italic;
+				text-transform: uppercase;
+			}
+		}
+
+		.wheel-wrapper {
+			position: absolute;
+			top: 12vw;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 500px;
+
+			.character {
+				position: absolute;
+				z-index: -1;
+				top: -170px;
+				right: -290px;
+			}
+
+			.wheel-shadow {
+				height: 30px;
+				width: 80%;
+				margin: 40px auto 0;
+				background: radial-gradient(ellipse, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 67%)
+
+			}
+		}
+
+		.tag-line-wrapper {
+			display: block;
+			text-align: center;
+			margin: 15vw auto 70px;
+
+			.tag-line {
+				font-size: 3em;
+
+				.ll {
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+
+}
+
+
